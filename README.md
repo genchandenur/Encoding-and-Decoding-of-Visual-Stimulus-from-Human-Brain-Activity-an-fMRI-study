@@ -8,7 +8,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 ## Preprocessing Steps
 
 | Tumor Types \ MRI Sequences  | T1-weighted | T2-weighted | Segmentation | 1-weighted | T2-weighted | Segmentation |
-| :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | Oligodendroglioma  | 0.81519  | 23.1904  | 5.56554  | 1-weighted | T2-weighted | Segmentation |
 | Oligoastrocytoma  | ![](images/Oligoastrocytoma-t1.jpg)  | ![](images/Oligoastrocytoma-t2.jpg)  | ![](images/Oligoastrocytoma-seg.jpg)  | 1-weighted | T2-weighted | Segmentation |
 | Astrocytoma  | 0.89553  | 1.73205 | 3.16228  | 1-weighted | T2-weighted | Segmentation |
