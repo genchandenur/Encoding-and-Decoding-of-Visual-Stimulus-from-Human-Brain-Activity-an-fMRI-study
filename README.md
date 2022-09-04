@@ -7,11 +7,11 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 
 ## Preprocessing Steps
 
-| Preprocessing Steps  | Recon-all  | flatmap | registration | volume-to-surface mapping | 1-weighted | T2-weighted |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
-| Oligodendroglioma  | 0.81519  | 23.1904  | 5.56554  | 1-weighted | T2-weighted | Segmentation |
-| Oligoastrocytoma  | ![](images/Oligoastrocytoma-t1.jpg)  | ![](images/Oligoastrocytoma-t2.jpg)  | ![](images/Oligoastrocytoma-seg.jpg)  | 1-weighted | T2-weighted | Segmentation |
-| Astrocytoma  | 0.89553  | 1.73205 | 3.16228  | 1-weighted | T2-weighted | Segmentation |
+| Preprocessing Steps  | Recon-all  | flatmap | registration | volume-to-surface mapping |
+| :---: | :---: | :---: | :---: | :---: |
+| Oligodendroglioma  | 0.81519  | 23.1904  | 5.56554  | 1-weighted |
+| Oligoastrocytoma  | ![](images/Oligoastrocytoma-t1.jpg)  | ![](images/Oligoastrocytoma-t2.jpg)  | ![](images/Oligoastrocytoma-seg.jpg)  | Segmentation |
+| Astrocytoma  | 0.89553  | 1.73205 | 3.16228  | 1-weighted |
 
 ## References
 1. [Generative adversarial networks for reconstructing natural images from brain activity](https://www.sciencedirect.com/science/article/abs/pii/S105381191830658X)
