@@ -13,7 +13,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 | Oligoastrocytoma  | ![](images/Oligoastrocytoma-t1.jpg)  | ![](images/Oligoastrocytoma-t2.jpg)  | ![](images/Oligoastrocytoma-seg.jpg)  | Segmentation |
 | Astrocytoma  | 0.89553  | 1.73205 | 3.16228  | 1-weighted |
 
-![](images/preprocessinng-steps.png)
+![](images/preprocessing-steps.png)
 
 ## References
 1. [Generative adversarial networks for reconstructing natural images from brain activity](https://www.sciencedirect.com/science/article/abs/pii/S105381191830658X)
