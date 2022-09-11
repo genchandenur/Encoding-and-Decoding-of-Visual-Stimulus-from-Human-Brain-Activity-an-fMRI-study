@@ -24,6 +24,12 @@ $ tksurfer CSI1 lh inflated -gray
 $ tksurfer CSI1 rh inflated -gray
 ```
 
+### Occipital Flattened Surface
+
+```bash
+$ tksurfer CSI1 lh inflated -gray
+$ tksurfer CSI1 rh inflated -gray
+```
 
 ![](images/preprocessing-steps.png)
 
