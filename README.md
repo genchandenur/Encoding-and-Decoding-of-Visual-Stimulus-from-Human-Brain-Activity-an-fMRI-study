@@ -7,7 +7,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 
 ## Preprocessing Steps
 
-###Recon-all
+### Recon-all
 
 ```bash
 $ cd /usr/local/freesurfer/subjects
