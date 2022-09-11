@@ -15,7 +15,7 @@ python3 mri_convert.py
 
 ### Recon-all
 
-Check out the [Freesurfer tutorial](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) on the usage and outputs of the recon-all command.
+Recon-all provides pre-processing of the three-dimensional anatomical volume of a single subject. Check out the [Freesurfer tutorial](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) on the usage and outputs of the recon-all command.
 
 ```bash
 $ mri_convert T1w_MPRAGE_CSI1.nii T1w_MPRAGE_CSI1.nii.gz
