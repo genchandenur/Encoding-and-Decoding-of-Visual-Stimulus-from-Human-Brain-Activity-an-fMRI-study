@@ -37,6 +37,7 @@ handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flat
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 rh.occip.patch.mgh rh.occip.flat.mgh
 ```
 ### Save FMRI Activation Map 
+Flat surfaces were filled with activation values using linear interpolation method. Check out [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html) function in Scipy.
 ```bash
 python3 flatmap.py
 ```
