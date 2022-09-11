@@ -2,6 +2,7 @@
 @author: Handenur
 
 Volume to Surface Registration
+CSI1 - A subject directory in the SUBJECT_DIR path. Edit the filename to try different subjects.
 """
 
 #import pydicom as dicom
