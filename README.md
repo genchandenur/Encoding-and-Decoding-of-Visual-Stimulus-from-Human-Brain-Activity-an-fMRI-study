@@ -12,9 +12,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 ```bash
 python3 mri_convert.py
 ```
-<p align="center">
-  <img src="[https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image](https://github.com/genchandenur/Encoding-and-Decoding-of-Visual-Stimulus-from-Human-Brain-Activity-an-fMRI-study/blob/main/images/dicom-mosaic-to-3d-nifti.PNG)"/>
-</p>
+![](images/dicom-mosaic-to-3d-nifti.PNG)
 
 ### Recon-all
 
