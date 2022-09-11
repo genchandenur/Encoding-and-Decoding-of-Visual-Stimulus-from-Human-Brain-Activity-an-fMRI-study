@@ -10,7 +10,6 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 ### Recon-all
 
 ```bash
-$ cd /usr/local/freesurfer/subjects
 $ mri_convert T1w_MPRAGE_CSI1.nii T1w_MPRAGE_CSI1.nii.gz
 $ recon-all -i T1w_MPRAGE_CSI1.nii.gz -s CSI1 -all
 ```
