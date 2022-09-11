@@ -1,7 +1,9 @@
 """
+@author: Handenur
 
-@author: handenur
 
+In this script, volume-to-surface mapping takes place for each subject. Then it's saved on the occipital flat patches as npy file.
+CSI1 - A subject directory in the SUBJECT_DIR path. Edit the filename to try different subjects.
 
 """
 
