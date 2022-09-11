@@ -17,6 +17,8 @@ $ recon-all -i T1w_MPRAGE_CSI1.nii.gz -s CSI1 -all
 ### Occipital Patch
 TkSurfer tool in Freesurfer toolset was used to create occipital patches. TkSurfer allows for visualization and navigation through cortical surface data. TkSurfer can also display functional or curvature data on the surface. Take a look [TkSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/tksurfer).
 
+Broddmann V1 and V2 regions created during the cortical reconstruction process completed with recon-all were used in the occipital patch extraction process. Take a look [Broddman Areas](https://surfer.nmr.mgh.harvard.edu/fswiki/BrodmannAreaMaps).
+
 ```bash
 $ tksurfer CSI1 lh inflated -gray
 $ tksurfer CSI1 rh inflated -gray
