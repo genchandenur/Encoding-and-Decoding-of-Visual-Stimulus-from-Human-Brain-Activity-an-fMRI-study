@@ -7,6 +7,12 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 
 ## Preprocessing Steps
 
+### Dicom Mosaics to 3D NIfTI
+
+```bash
+python3 mri_convert.py
+```
+
 ### Recon-all
 
 ```bash
