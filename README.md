@@ -27,8 +27,8 @@ $ tksurfer CSI1 rh inflated -gray
 ### Occipital Flattened Surface
 
 ```bash
-$ tksurfer CSI1 lh inflated -gray
-$ tksurfer CSI1 rh inflated -gray
+handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 lh.occip.patch.mgh lh.occip.flat.mgh
+handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 rh.occip.patch.mgh rh.occip.flat.mgh
 ```
 
 ![](images/preprocessing-steps.png)
