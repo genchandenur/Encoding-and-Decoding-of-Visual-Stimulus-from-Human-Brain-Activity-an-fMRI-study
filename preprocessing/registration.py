@@ -1,3 +1,9 @@
+"""
+@author: Handenur
+
+Volume to Surface Registration
+"""
+
 #import pydicom as dicom
 #import matplotlib.pylab as plt
 import numpy as np
