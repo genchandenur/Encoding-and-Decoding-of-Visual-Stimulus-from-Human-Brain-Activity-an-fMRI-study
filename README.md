@@ -52,7 +52,13 @@ python3 flatmap.py
 
 ### Concatenate Left Hem. and Right Hem.
 
-![](images/lh_rh_concat.jpg)
+```bash
+python3 lh_rh_concat.py
+```
+
+<p align="center">
+  <img src="images/lh_rh_concat.jpg">
+</p>
 
 ## References
 1. [Generative adversarial networks for reconstructing natural images from brain activity](https://www.sciencedirect.com/science/article/abs/pii/S105381191830658X)
