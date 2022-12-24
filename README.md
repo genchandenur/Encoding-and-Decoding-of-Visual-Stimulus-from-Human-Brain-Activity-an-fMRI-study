@@ -57,7 +57,7 @@ python3 lh_rh_concat.py
 ```
 
 <p align="center">
-  <img src="images/lh_rh_concat.jpg" width="800" height="1000">
+  <img src="images/lh_rh_concat.jpg" width="400" height="600">
 </p>
 
 ## References
