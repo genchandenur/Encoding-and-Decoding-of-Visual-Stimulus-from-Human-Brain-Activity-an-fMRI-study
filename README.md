@@ -50,6 +50,10 @@ python3 flatmap.py
 
 ![](images/preprocessing-steps.png)
 
+### Concatenate Left Hem. and Right Hem.
+
+![](images/lh_rh_concat.jpg)
+
 ## References
 1. [Generative adversarial networks for reconstructing natural images from brain activity](https://www.sciencedirect.com/science/article/abs/pii/S105381191830658X)
 2. [BOLD5000, a public fMRI dataset while viewing 5000 visual images](https://www.nature.com/articles/s41597-019-0052-3)
