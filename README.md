@@ -34,6 +34,12 @@ Broddmann V1 and V2 regions created during the cortical reconstruction process c
 $ tksurfer CSI1 lh inflated -gray
 $ tksurfer CSI1 rh inflated -gray
 ```
+<h3>Example Figures</h3>
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="tksurfer.png" alt="Figure 1" width="300" />
+  <img src="cut-occip-patch.png" alt="Figure 2" width="300" />
+</div>
+
 
 ### Occipital Flattened Surface
 
