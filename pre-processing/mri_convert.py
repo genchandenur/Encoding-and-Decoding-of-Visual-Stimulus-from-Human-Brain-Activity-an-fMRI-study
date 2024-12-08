@@ -38,6 +38,7 @@ for session in sess_dir:
 
         os.chdir(FREESURFER_SUBJECTS)
         os.system(f"mri_convert {subject} {subject[:-4]}.nii")
+        #os.popen(f"mri_convert {subject} {subject[:-4]}.nii")
 
         os.remove(subject_dir)
 
