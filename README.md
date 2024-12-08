@@ -19,9 +19,11 @@ python3 mri_convert.py
 Recon-all provides pre-processing of the three-dimensional anatomical volume of a single subject. Check out the [Freesurfer tutorial](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) on the usage and outputs of the recon-all command.
 
 ```bash
-$ mri_convert T1w_MPRAGE_CSI1.nii T1w_MPRAGE_CSI1.nii.gz
 $ recon-all -i T1w_MPRAGE_CSI1.nii.gz -s CSI1 -all
 ```
+<p align="center">
+  <img src="images/pipeline.png" width="600" height="300">
+</p>
 
 ### Occipital Patch
 TkSurfer tool in Freesurfer toolset was used to create occipital patches. TkSurfer allows for visualization and navigation through cortical surface data. TkSurfer can also display functional or curvature data on the surface. Take a look [TkSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/tksurfer).
