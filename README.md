@@ -13,9 +13,6 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 python3 mri_convert.py
 ```
 
-#<p align="center">
-#  <img src="images/dicom-mosaic-to-3d-nifti.PNG">
-#</p>
 
 ### Recon-all
 
