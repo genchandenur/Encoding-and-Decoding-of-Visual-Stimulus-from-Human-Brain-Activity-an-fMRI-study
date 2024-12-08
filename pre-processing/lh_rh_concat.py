@@ -70,7 +70,8 @@ def load_data(SUBJECT_LIST, DIRECTORY, CONCAT):
             elif CONCAT == 'c':
                 conc = np.stack((lh, rh), axis=-1)
             else:
-                raise ValueError("Invalid concatenation type. Use 'h', 'v', or 'c'.")            save_path = os.path.join(target_path, f"conc_{os.path.basename(lh_hem[idx])}")
+                raise ValueError("Invalid concatenation type. Use 'h', 'v', or 'c'.")            
+            save_path = os.path.join(target_path, f"conc_{os.path.basename(lh_hem[idx])}")
             np.save(save_path, conc, allow_pickle=True)
             print(f"File saved: {save_path}")
 
