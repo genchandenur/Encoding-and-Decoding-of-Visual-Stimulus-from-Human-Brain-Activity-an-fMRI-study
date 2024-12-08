@@ -1,4 +1,4 @@
-# Encoding-and-Decoding-of-Visual-Stimulus-from-Human-Brain-Activity-an-fMRI-study
+# A fMRI Study: Occipital Surface Extraction from Cortical Surface Model
 
 ## Overview
 Today, functional connectivity analyzes based on Functional Magnetic Resonance Imaging (fMRI) data and detecting neuronal activity in the brain have gained an important place in brain research. The physical basis of fMRI depends to blood-oxygen-level-dependent (BOLD) contrast which derived from a mismatch of blood flow and oxygen metabolism during local neural activation. Studies of how the brain represents complex visual objects and the perception experienced by the subject are extremely important in terms of understanding the working of the brain.
