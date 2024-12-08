@@ -22,7 +22,7 @@ Recon-all provides pre-processing of the three-dimensional anatomical volume of 
 $ recon-all -i T1w_MPRAGE_CSI1.nii.gz -s CSI1 -all
 ```
 <p align="center">
-  <img src="images/pipeline.png" width="600" height="300">
+  <img src="images/pipeline.png">
 </p>
 
 ### Occipital Patch
