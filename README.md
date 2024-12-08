@@ -34,11 +34,16 @@ Broddmann V1 and V2 regions created during the cortical reconstruction process c
 $ tksurfer CSI1 lh inflated -gray
 $ tksurfer CSI1 rh inflated -gray
 ```
-<h3>Example Figures</h3>
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="images/tksurfer.png" alt="Figure 1" width="200" />
-  <img src="images/cut-occip-patch.png" alt="Figure 2" width="400" />
-</div>
+
+#### Figure 1: Tksurfer Interface
+<img src="images/tksurfer.png" alt="Figure 1" width="200" />
+
+**Description**: This figure illustrates the Tksurfer interface, a visualization tool used for analyzing and interacting with cortical surfaces. The interface allows users to explore cortical structures, view patches, and perform specific operations on brain data.
+
+#### Figure 2: Cutting the Occipital Lobe
+<img src="images/cut-occip-patch.png" alt="Figure 2" width="400" />
+
+**Description**: This figure demonstrates the step-by-step process of cutting the occipital lobe patch. Each step highlights how the patch is defined, manipulated, and finalized, providing a clear visual guide for the operation.
 
 
 ### Occipital Flattened Surface
