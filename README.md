@@ -54,10 +54,6 @@ Flat surfaces were filled with activation values using linear interpolation meth
 ```bash
 python3 flatmap.py
 ```
-<p align="center">
-  <img src="images/interpolation.png" alt="Figure 2" width="400" />
-</p>
-
 ![](images/preprocessing-steps.png)
 
 ### Concatenate Left Hem. and Right Hem.
