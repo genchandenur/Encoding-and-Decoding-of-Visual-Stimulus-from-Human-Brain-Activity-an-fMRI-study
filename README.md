@@ -55,11 +55,12 @@ $ tksurfer CSI1 *h inflated -gray
 ```
 
 <p align="center">
-  <img src="images/tksurfer.png" alt="Figure 1" width="200" />
+  <img src="images/tksurfer.png" alt="tksurfer" width="200" />
 </p>
 
+The following cutting steps are applied to both hemispheres.
 <p align="center">
-  <img src="images/cut-occip-patch.png" alt="Figure 2" width="400" />
+  <img src="images/cut-occip-patch.png" alt="patch" width="400" />
 </p>
 
 The occipital patches cut from the cortical surface are flattened for each hemisphere.
