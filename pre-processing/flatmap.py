@@ -20,7 +20,7 @@ FREESURFER_SUBJECTS = input("Enter the FreeSurfer 'subjects' directory path (e.g
 DATA_DIR = input("Enter the name of the output data directory (e.g., interpolation): ").strip()
 REG_FILE = input("Enter the name of the registration directory (e.g., registration): ").strip()
 SUBJECT_NAME = input("Enter the CSI1 subject name (e.g., CSI1): ").strip()
-
+FILE_EXTENSION = input("Enter the extension you want to save with dot: (e.g. npy").strip() 
 sess_dirs = []
 parent_dirs = glob.glob(os.path.join(PARENT_DIR, "*"))
 for parent in parent_dirs:
