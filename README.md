@@ -27,7 +27,7 @@ python3 mri_convert.py
     <td><img alt="mosaic to 3d volume" src="images/3d-volume.gif" width=200> </td>
   </tr>
   <tr>
-    <td colspan="2" style="text-align:center;">Figure: DICOM mosaics tp 3D volume data transformation</td>
+    <td colspan="2" style="text-align:center;">Figure: DICOM mosaics to 3D volume data transformation</td>
   </tr>
 </table>
 </div>
@@ -48,11 +48,10 @@ where **-i** flag is anatomical images, **-s** is subject name and **-all** flag
 ## Occipital Patch Removal from Cortical Surface and Flattening 
 TkSurfer tool in Freesurfer toolset was used to create occipital patches. TkSurfer allows for visualization and navigation through cortical surface data. TkSurfer can also display functional or curvature data on the surface. Take a look [TkSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/tksurfer).
 
-Broddmann V1 and V2 regions created during the cortical reconstruction process completed with recon-all were used in the occipital patch extraction process. Take a look [Broddman Areas](https://surfer.nmr.mgh.harvard.edu/fswiki/BrodmannAreaMaps).
+Brodmann V1 and V2 regions created during the cortical reconstruction process completed with recon-all were used in the occipital patch extraction process. Take a look [Broddman Areas](https://surfer.nmr.mgh.harvard.edu/fswiki/BrodmannAreaMaps).
 
 ```bash
-$ tksurfer CSI1 lh inflated -gray
-$ tksurfer CSI1 rh inflated -gray
+$ tksurfer CSI1 *h inflated -gray
 ```
 
 <p align="center">
