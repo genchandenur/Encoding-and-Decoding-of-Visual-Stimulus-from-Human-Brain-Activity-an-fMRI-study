@@ -5,7 +5,12 @@ Today, functional connectivity analyzes based on Functional Magnetic Resonance I
 
 In this repository, there are studies on visual stimulus reconstruction from fMRI activation models, which are revealed by the presentation of visual stimuli in various object categories. In terms of applicability of statistical learning approaches involving neuroscience, [the BOLD5000 dataset](https://bold5000-dataset.github.io/website/) containing approximately 5,000 different slow event-related fMRI human functional MRI (fMRI) images will be used. As data preprocessing steps, it is aimed to increase the classification accuracy by removing the visual cortex, which is known to contain information about the distinctions to be made, from the images. It is aimed to test the performance of deep learning-based algorithms with 2 different data types: The first is to extract the cortical surface model for each subject, in which the stimulus image hides the neighborhood relations, using [Freesurfer software](https://surfer.nmr.mgh.harvard.edu/). Secondly, the performance of the algorithm in creating the stimulus image using raw images will be analyzed. The generative adversarial network (GAN) architecture, which is often used in the machine learning framework, will be used to reconstruct the stimulus image from the pre-processed and raw images. 
 
-## Preprocessing Steps
+## Table of Contents
+1. [DICOM Mosaics to Patient Coordinate System Mapping](#dicom-mos)
+2. [FreeSurfer Single Subject Pipeline Analysis Overview](#recon-all)
+3. [Volume to Surface Projection using Freesurfer](#projection)
+4. [Occipital Patch Removal and Flattening](patch)
+5. [Flattened fMRI Activity Surfaces](#flat-surf)
 
 ### Dicom Mosaics to 3D NIfTI
 
