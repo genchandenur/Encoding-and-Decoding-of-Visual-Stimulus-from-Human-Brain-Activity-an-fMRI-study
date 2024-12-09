@@ -18,7 +18,18 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 ```bash
 python3 mri_convert.py
 ```
-<img alt="mosaic to 3d volume" src="images/3d-volume.gif" width=200> 
+<table>
+  <tr>
+    <td><img alt="mosaic" src="images/mosaic.jpg" width=200> </td>
+    <td><img alt="mosaic to 3d volume" src="images/3d-volume.gif" width=200> </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:center;">Figure</td>
+  </tr>
+</table>
+
+
+
 
 ## FreeSurfer Single Subject Pipeline Analysis Overview
 
