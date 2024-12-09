@@ -45,7 +45,7 @@ where **-i** flag is anatomical images, **-s** is subject name and **-all** flag
   <img src="images/pipeline.png" width="550" height="300">
 </p>
 
-## Occipital Patch Removal from Cortical Surface and Flattening 
+## Occipital Patch Removal from Cortical Surface and Flattening
 TkSurfer tool in Freesurfer toolset was used to create occipital patches. TkSurfer allows for visualization and navigation through cortical surface data. TkSurfer can also display functional or curvature data on the surface. Take a look [TkSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/tksurfer).
 
 Brodmann V1 and V2 regions created during the cortical reconstruction process completed with recon-all were used in the occipital patch extraction process. Take a look [Broddman Areas](https://surfer.nmr.mgh.harvard.edu/fswiki/BrodmannAreaMaps).
