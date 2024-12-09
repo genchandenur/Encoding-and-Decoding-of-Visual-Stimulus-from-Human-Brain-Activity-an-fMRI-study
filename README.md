@@ -1,7 +1,7 @@
 # A fMRI Study: Occipital Surface Extraction from Cortical Surface Model
 
 <p align="center">
-  <img src="images/preproc-steps.png" width="600" height="200">
+  <img src="images/preproc-steps.png" width="800" height="200">
 </p>
 
 ## Overview
