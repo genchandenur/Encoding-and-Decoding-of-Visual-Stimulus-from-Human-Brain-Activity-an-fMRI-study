@@ -63,6 +63,7 @@ $ tksurfer CSI1 rh inflated -gray
   <img src="images/cut-occip-patch.png" alt="Figure 2" width="400" />
 </p>
 
+The occipital patches cut from the cortical surface are flattened for each hemisphere.
 ```bash
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 lh.occip.patch.mgh lh.occip.flat.mgh
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 rh.occip.patch.mgh rh.occip.flat.mgh
