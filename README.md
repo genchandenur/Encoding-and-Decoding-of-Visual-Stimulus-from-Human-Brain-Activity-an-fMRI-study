@@ -19,8 +19,8 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 python3 mri_convert.py
 ```
 
-<div style="text-align:center;">
-<table style="margin:auto;">
+<div align="center">
+<table>
   <tr>
     <td><img alt="mosaic" src="images/mosaic.jpg" width=200> </td>
     <td><img alt="mosaic to 3d volume" src="images/3d-volume.gif" width=200> </td>
