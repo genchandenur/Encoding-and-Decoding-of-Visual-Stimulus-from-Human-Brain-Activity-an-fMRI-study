@@ -10,7 +10,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 2. [FreeSurfer Single Subject Pipeline Analysis Overview](#FreeSurfer-Single-Subject-Pipeline-Analysis-Overview)
 3. [Occipital Patch Removal from Cortical Surface and Flattening](#Occipital-Patch-Removal-from-Cortical-Surface-and-Flattening)
 4. [Volume to Surface Projection using Freesurfer](#Volume-to-Surface-Projection-using-Freesurfer)
-5. [Flattened fMRI Activity Surfaces](#Flattened-fMRI-Activity-Surfaces)
+5. [Flattened fMRI Activity Surfaces and Concatenate Both LH and RH](#Flattened-fMRI-Activity-Surfaces-and-Concatenate-both-LH-and-RH)
 6. [References](#References)
 
 ## DICOM Mosaics to Patient Coordinate System Mapping
@@ -148,14 +148,13 @@ python3 registration.py
 </table>
 </div>
 
-### Flattened fMRI Activity Surfaces
+### Flattened fMRI Activity Surfaces and Concatenate Both LH and RH
 Flat surfaces were filled with activation values using linear interpolation method. Check out [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html) function in Scipy.
+
 ```bash
 python3 flatmap.py
 ```
 ![](images/preprocessing-steps.png)
-
-## Concatenate Left Hem. and Right Hem.
 
 ```bash
 python3 lh_rh_concat.py
