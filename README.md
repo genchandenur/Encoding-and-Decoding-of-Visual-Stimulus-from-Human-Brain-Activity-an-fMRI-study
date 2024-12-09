@@ -8,7 +8,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 ## Table of Contents
 1. [DICOM Mosaics to Patient Coordinate System Mapping](#DICOM-Mosaics-to-Patient-Coordinate-System-Mapping)
 2. [FreeSurfer Single Subject Pipeline Analysis Overview](#FreeSurfer-Single-Subject-Pipeline-Analysis-Overview)
-3. [Occipital Patch Removal from Cortical Surface and Flattening](Occipital-Patch-Removal-from-Cortical-Surface-and-Flattening)
+3. [Occipital Patch Removal from Cortical Surface and Flattening](#Occipital-Patch-Removal-from-Cortical-Surface-and-Flattening)
 4. [Volume to Surface Projection using Freesurfer](#Volume-to-Surface-Projection-using-Freesurfer)
 5. [Flattened fMRI Activity Surfaces](#Flattened-fMRI-Activity-Surfaces)
 6. [References](#References)
