@@ -20,7 +20,7 @@ python3 mri_convert.py
 ```
 <img alt="mosaic to 3d volume" src="images/3d-volume.gif" width=200> 
 
-## FreeSurfer-Single-Subject-Pipeline-Analysis-Overview
+## FreeSurfer Single Subject Pipeline Analysis Overview
 
 Recon-all provides pre-processing of the three-dimensional anatomical volume of a single subject. Check out the [Freesurfer tutorial](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) on the usage and outputs of the recon-all command.
 
@@ -31,7 +31,7 @@ $ recon-all -i T1w_MPRAGE_CSI1.nii.gz -s CSI1 -all
   <img src="images/pipeline.png" width="550" height="300">
 </p>
 
-## Volume-to-Surface-Projection-using-Freesurfer
+## Volume to Surface Projection using Freesurfer
 TkSurfer tool in Freesurfer toolset was used to create occipital patches. TkSurfer allows for visualization and navigation through cortical surface data. TkSurfer can also display functional or curvature data on the surface. Take a look [TkSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/tksurfer).
 
 Broddmann V1 and V2 regions created during the cortical reconstruction process completed with recon-all were used in the occipital patch extraction process. Take a look [Broddman Areas](https://surfer.nmr.mgh.harvard.edu/fswiki/BrodmannAreaMaps).
@@ -49,13 +49,13 @@ $ tksurfer CSI1 rh inflated -gray
   <img src="images/cut-occip-patch.png" alt="Figure 2" width="400" />
 </p>
 
-## Occipital-Patch-Removal-from-Cortical-Surface-and-Flattening
+## Occipital Patch Removal from Cortical Surface and Flattening
 
 ```bash
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 lh.occip.patch.mgh lh.occip.flat.mgh
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 rh.occip.patch.mgh rh.occip.flat.mgh
 ```
-### Flattened-fMRI-Activity-Surfaces
+### Flattened fMRI Activity Surfaces
 Flat surfaces were filled with activation values using linear interpolation method. Check out [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html) function in Scipy.
 ```bash
 python3 flatmap.py
