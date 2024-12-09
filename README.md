@@ -42,7 +42,7 @@ $ recon-all -i T1w_MPRAGE_CSI1.nii.gz -s CSI1 -all
 where **-i** flag is anatomical images, **-s** is subject name and **-all** flag will run all of the preprocessing steps on your data.
 
 <p align="center">
-  <img src="images/pipeline.png" width="550" height="300">
+  <img src="images/pipeline.png" width="600" height="350">
 </p>
 
 ## Occipital Patch Removal from Cortical Surface and Flattening
