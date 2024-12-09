@@ -63,12 +63,13 @@ $ tksurfer CSI1 rh inflated -gray
   <img src="images/cut-occip-patch.png" alt="Figure 2" width="400" />
 </p>
 
-## Volume to Surface Projection using Freesurfer
-
 ```bash
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 lh.occip.patch.mgh lh.occip.flat.mgh
 handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flatten -w 0 rh.occip.patch.mgh rh.occip.flat.mgh
 ```
+
+## Volume to Surface Projection using Freesurfer
+
 ### Flattened fMRI Activity Surfaces
 Flat surfaces were filled with activation values using linear interpolation method. Check out [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html) function in Scipy.
 ```bash
