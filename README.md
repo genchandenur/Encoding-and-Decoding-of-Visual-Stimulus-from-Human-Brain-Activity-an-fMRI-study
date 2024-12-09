@@ -62,7 +62,7 @@ The following cutting steps are applied to both hemispheres.
 
 <table border="1" style="border-collapse: collapse; width: 100%; text-align: center; table-layout: fixed;">
   <tr>
-    <td colspan="3" style="text-align: center; font-weight: bold; font-size: 18px; padding: 10px;">
+    <td colspan="3" style="text-align: center; vertical-align: middle; font-weight: bold; font-size: 18px; padding: 20px;">
       Cutting the occipital patch from surface and flattening
     </td>
   </tr>
