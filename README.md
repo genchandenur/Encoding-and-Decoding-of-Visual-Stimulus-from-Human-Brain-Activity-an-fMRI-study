@@ -72,25 +72,25 @@ The following cutting steps are applied to both hemispheres.
       <p><strong>1</strong> tksurfer CSI1 lh inflated -gray</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/2.png" alt="Step 2" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/2.png" alt="Step 2" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>2</strong> Rotate around to view the occipital pole. Click a point to mark the posterior end of the relief-cut line.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/3.png" alt="Step 3" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/3.png" alt="Step 3" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>3</strong> Rotate back to the lateral view. Add a couple more points to define the line.</p>
     </td>
   </tr>
   <tr>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/4.png" alt="Step 4" style="max-width: 300%; height: auto; display: block; margin: auto;">
+      <img src="images/4.png" alt="Step 4" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>4</strong> Click ‘Cut line’ button after adding the points.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/5.png" alt="Step 5" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/5.png" alt="Step 5" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>5</strong> Output of the ‘Cut line’ process.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/6.png" alt="Step 6" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/6.png" alt="Step 6" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>6</strong> Click on the anterior end of the calcarine sulcus.</p>
     </td>
   </tr>
@@ -100,11 +100,11 @@ The following cutting steps are applied to both hemispheres.
       <p><strong>7</strong> Click points as desired to define the occipital patch boundary.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/8.png" alt="Step 8" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/8.png" alt="Step 8" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>8</strong> Click the ‘Cut plane’ button to finalize the patch.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/9.png" alt="Step 9" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/9.png" alt="Step 9" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>9</strong> Save the patch as lh.occip.patch.mgh.</p>
     </td>
   </tr>
@@ -114,11 +114,11 @@ The following cutting steps are applied to both hemispheres.
       <p><strong>10</strong> Run mris_flatten to flatten the patch.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/11.png" alt="Step 11" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/11.png" alt="Step 11" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>11</strong> Load Brodmann V1 and V2 labels.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/12.png" alt="Step 12" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      <img src="images/12.png" alt="Step 12" style="max-width: 90%; height: auto; display: block; margin: auto;">
       <p><strong>12</strong> Final output with loaded Brodmann areas.</p>
     </td>
   </tr>
