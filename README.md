@@ -12,7 +12,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 4. [Occipital Patch Removal and Flattening](patch)
 5. [Flattened fMRI Activity Surfaces](#flat-surf)
 
-### DICOM Mosaics to Patient Coordinate System Mapping
+### dicom-mos
 
 ```bash
 python3 mri_convert.py
