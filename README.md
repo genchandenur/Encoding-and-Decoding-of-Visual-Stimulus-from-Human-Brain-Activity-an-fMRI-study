@@ -14,6 +14,7 @@ In this repository, there are studies on visual stimulus reconstruction from fMR
 6. [References](#References)
 
 ## DICOM Mosaics to Patient Coordinate System Mapping
+This Python script processes image files within a specified directory structure, creates a target folder, and organizes these files by converting them into the desired format using the FreeSurfer command. We saved mosaic T1-weighted images in NIfTI format.
 
 ```bash
 python3 mri_convert.py
@@ -26,7 +27,7 @@ python3 mri_convert.py
     <td><img alt="mosaic to 3d volume" src="images/3d-volume.gif" width=200> </td>
   </tr>
   <tr>
-    <td colspan="2" style="text-align:center;">Figure</td>
+    <td colspan="2" style="text-align:center;">Figure: DICOM mosaics tp 3D volume data transformation</td>
   </tr>
 </table>
 </div>
