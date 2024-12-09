@@ -62,11 +62,6 @@ The following cutting steps are applied to both hemispheres.
 
 <table border="1" style="border-collapse: collapse; width: 100%; text-align: center; table-layout: fixed;">
   <tr>
-    <td colspan="3" style="display: flex; justify-content: center; align-items: center; font-weight: bold; font-size: 18px; height: 60px;">
-      Cutting the occipital patch from surface and flattening
-    </td>
-  </tr>
-  <tr>
     <td style="vertical-align: middle;">
       <img src="images/1.png" alt="Step 1" style="width: 200px; height: auto; display: block; margin: auto;">
       <p><strong>1</strong> tksurfer CSI1 lh inflated -gray</p>
