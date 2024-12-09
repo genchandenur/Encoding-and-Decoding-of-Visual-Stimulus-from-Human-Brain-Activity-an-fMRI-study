@@ -63,7 +63,7 @@ for session in sess_dirs:
         image_path = os.path.join(vol_dir, subject)
         subject_name, _ = os.path.splitext(subject)
         overlay_file = os.path.join(FREESURFER_SUBJECTS, subject)
-        output_file = os.path.join(output_path, f"{subject_name}.npy")
+        output_file = os.path.join(output_path, f"{subject_name}.{FILE_EXTENSION}")
 
         shutil.copy2(image_path, overlay_file)
 
