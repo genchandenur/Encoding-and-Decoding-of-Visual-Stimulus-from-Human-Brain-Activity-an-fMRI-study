@@ -131,11 +131,22 @@ handenur@handenur-VirtualBox:/usr/local/freesurfer/subjects/CSI1/surf$ mris_flat
 ```
 
 ## Volume to Surface Projection using Freesurfer
+This script is designed to project volumetric fMRI images onto surface models using the `mri_vol2surf` command from the FreeSurfer software for volume-to-surface registration.
 
 ```bash
 python3 registration.py
 ```
-
+<div align="center">
+<table>
+  <tr>
+    <td><img alt="cort" src="images/cortical-surf.png" width=200> </td>
+    <td><img alt="proj" src="images/proj-surf.png" width=200> </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:center;">Figure: fMRI Activation Projection on Cortical Surface</td>
+  </tr>
+</table>
+</div>
 
 ### Flattened fMRI Activity Surfaces
 Flat surfaces were filled with activation values using linear interpolation method. Check out [LinearNDInterpolator](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html) function in Scipy.
