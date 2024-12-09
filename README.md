@@ -68,7 +68,7 @@ The following cutting steps are applied to both hemispheres.
   </colgroup>
   <tr>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/1.png" alt="Step 1" style="max-width: 200%; height: auto; display: block; margin: auto;">
+      <img src="images/1.png" alt="Step 1" style="max-width: 300%; height: auto; display: block; margin: auto;">
       <p><strong>1</strong> tksurfer CSI1 lh inflated -gray</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
@@ -82,7 +82,7 @@ The following cutting steps are applied to both hemispheres.
   </tr>
   <tr>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/4.png" alt="Step 4" style="max-width: 200%; height: auto; display: block; margin: auto;">
+      <img src="images/4.png" alt="Step 4" style="max-width: 300%; height: auto; display: block; margin: auto;">
       <p><strong>4</strong> Click ‘Cut line’ button after adding the points.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
@@ -96,7 +96,7 @@ The following cutting steps are applied to both hemispheres.
   </tr>
   <tr>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/7.png" alt="Step 7" style="max-width: 200%; height: auto; display: block; margin: auto;">
+      <img src="images/7.png" alt="Step 7" style="max-width: 300%; height: auto; display: block; margin: auto;">
       <p><strong>7</strong> Click points as desired to define the occipital patch boundary.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
@@ -110,7 +110,7 @@ The following cutting steps are applied to both hemispheres.
   </tr>
   <tr>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
-      <img src="images/10.png" alt="Step 10" style="max-width: 200%; height: auto; display: block; margin: auto;">
+      <img src="images/10.png" alt="Step 10" style="max-width: 300%; height: auto; display: block; margin: auto;">
       <p><strong>10</strong> Run mris_flatten to flatten the patch.</p>
     </td>
     <td style="vertical-align: middle; word-wrap: break-word; overflow-wrap: break-word;">
