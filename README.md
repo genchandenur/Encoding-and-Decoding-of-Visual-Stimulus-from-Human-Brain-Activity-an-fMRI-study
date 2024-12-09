@@ -59,6 +59,79 @@ $ tksurfer CSI1 *h inflated -gray
 </p>
 
 The following cutting steps are applied to both hemispheres.
+<table border="1" style="border-collapse: collapse; text-align: center; width: 100%;">
+  <tr>
+    <td>
+      <img src="images/1.png" alt="Step 1" style="width: 100px; height: auto;">
+      <p><strong>1</strong></p>
+      <p>tksurfer CSI1 lh inflated -gray</p>
+    </td>
+    <td>
+      <img src="images/2.png" alt="Step 2" style="width: 100px; height: auto;">
+      <p><strong>2</strong></p>
+      <p>Rotate around to view the occipital pole. Click a point to mark the posterior end of the relief-cut line.</p>
+    </td>
+    <td>
+      <img src="images/3.png" alt="Step 3" style="width: 100px; height: auto;">
+      <p><strong>3</strong></p>
+      <p>Rotate back to the lateral view. Add a couple more points to define the line.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/4.png" alt="Step 4" style="width: 100px; height: auto;">
+      <p><strong>4</strong></p>
+      <p>Click ‘Cut line’ button after adding the points.</p>
+    </td>
+    <td>
+      <img src="images/5.png" alt="Step 5" style="width: 100px; height: auto;">
+      <p><strong>5</strong></p>
+      <p>Output of the ‘Cut line’ process.</p>
+    </td>
+    <td>
+      <img src="images/6.png" alt="Step 6" style="width: 100px; height: auto;">
+      <p><strong>6</strong></p>
+      <p>Click on the anterior end of the calcarine sulcus.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/7.png" alt="Step 7" style="width: 100px; height: auto;">
+      <p><strong>7</strong></p>
+      <p>Click points as desired to define the occipital patch boundary.</p>
+    </td>
+    <td>
+      <img src="images/8.png" alt="Step 8" style="width: 100px; height: auto;">
+      <p><strong>8</strong></p>
+      <p>Click the ‘Cut plane’ button to finalize the patch.</p>
+    </td>
+    <td>
+      <img src="images/9.png" alt="Step 9" style="width: 100px; height: auto;">
+      <p><strong>9</strong></p>
+      <p>Save the patch as lh.occip.patch.mgh.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/10.png" alt="Step 10" style="width: 100px; height: auto;">
+      <p><strong>10</strong></p>
+      <p>Run mris_flatten to flatten the patch.</p>
+    </td>
+    <td>
+      <img src="images/11.png" alt="Step 11" style="width: 100px; height: auto;">
+      <p><strong>11</strong></p>
+      <p>Load Brodmann V1 and V2 labels.</p>
+    </td>
+    <td>
+      <img src="images/12.png" alt="Step 12" style="width: 100px; height: auto;">
+      <p><strong>12</strong></p>
+      <p>Final output with loaded Brodmann areas.</p>
+    </td>
+  </tr>
+</table>
+
+
+
 <p align="center">
   <img src="images/cut-occip-patch.png" alt="patch" width="400" />
 </p>
