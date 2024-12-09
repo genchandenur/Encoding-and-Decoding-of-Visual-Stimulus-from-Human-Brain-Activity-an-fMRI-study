@@ -12,6 +12,7 @@ PARENT_DIR = input("Enter the parent directory path: ")
 DIRECTORY = input("Enter the name of the target folder to be created: ")
 FREESURFER_SUBJECTS = input("Enter the FreeSurfer subjects directory (/usr/local/freesurfer/subjects/): ")
 SUB_PATH = input("Enter the sub path: (BOLD_Raw)")
+FILE_EXTENSION = input("Enter the file extension (e.g., nii): ")
 sess_dir = []
 
 PARENT_DIRS = glob.glob(os.path.join(PARENT_DIR, '*'))
@@ -32,17 +33,17 @@ for session in sess_dir:
     for subject in subjects:
         image_path = os.path.join(session, subject)
         subject_dir = os.path.join(FREESURFER_SUBJECTS, subject)
-        subject_nii = os.path.join(FREESURFER_SUBJECTS, f"{subject[:-4]}.nii")
+        subject_nii = os.path.join(FREESURFER_SUBJECTS, f"{subject[:-4]}.{FILE_EXTENSION}")
 
         shutil.copy2(image_path, subject_dir)
 
         os.chdir(FREESURFER_SUBJECTS)
-        os.system(f"mri_convert {subject} {subject[:-4]}.nii")
-        #os.popen(f"mri_convert {subject} {subject[:-4]}.nii")
+        os.system(f"mri_convert {subject} {subject[:-4]}.{FILE_EXTENSION}")
+        #os.popen(f"mri_convert {subject} {subject[:-4]}.{FILE_EXTENSION}")
 
         os.remove(subject_dir)
 
-        shutil.move(subject_nii, os.path.join(target_dir, f"{subject[:-4]}.nii"))
+        shutil.move(subject_nii, os.path.join(target_dir, f"{subject[:-4]}.{FILE_EXTENSION}")
 
 
            
