@@ -63,8 +63,7 @@ The following cutting steps are applied to both hemispheres.
   <tr>
     <td>
       <img src="images/1.png" alt="Step 1" style="width: 100px; height: auto;">
-      <p><strong>1</strong></p>
-      <p>tksurfer CSI1 lh inflated -gray</p>
+      <p><strong>1</strong> tksurfer CSI1 lh inflated -gray</p>
     </td>
     <td>
       <img src="images/2.png" alt="Step 2" style="width: 100px; height: auto;">
